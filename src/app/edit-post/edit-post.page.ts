@@ -46,6 +46,14 @@ export class EditPostPage implements OnInit {
       .subscribe(data => {
         this.post.title = data["title"];
         this.post.details = data["details"];
+        this.post.op1 = data["op1"];
+        this.post.op2 = data["op2"];
+        this.post.op3 = data["op3"];
+        this.post.op4 = data["op4"];
+        this.post.op5 = data["op5"];
+        this.post.op6 = data["op6"];
+        this.post.op7 = data["op7"];
+        this.post.op8 = data["op8"];
 
         // dismiss loader
         loader.dismiss();

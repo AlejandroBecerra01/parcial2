@@ -7,5 +7,6 @@ export interface Post {
   op4: string;
   op5: string;
   op6: string;
-
+  op7: string;
+  op8: string;
 }

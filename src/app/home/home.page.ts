@@ -46,7 +46,16 @@ export class HomePage {
             return {
               id: e.payload.doc.id,
               title: e.payload.doc.data()["title"],
-              details: e.payload.doc.data()["details"]
+              details: e.payload.doc.data()["details"],
+              op1: e.payload.doc.data()["op1"],
+              op2: e.payload.doc.data()["op2"],
+              op3: e.payload.doc.data()["op3"],
+              op4: e.payload.doc.data()["op4"],
+              op5: e.payload.doc.data()["op5"],
+              op6: e.payload.doc.data()["op6"],
+              op7: e.payload.doc.data()["op7"],
+              op8: e.payload.doc.data()["op8"]
+
             };
           });
 
