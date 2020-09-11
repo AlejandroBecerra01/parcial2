@@ -1,25 +1,26 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title class="ion-text-center">Add Post</ion-title>
+    <ion-title class="ion-text-center">Crear Formulario</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-item>
-    <ion-label position="floating">Title</ion-label>
+    <ion-label position="floating">Nombre Completo</ion-label>
     <ion-input type="text" [(ngModel)]="post.title" required></ion-input>
   </ion-item>
 
   <ion-item>
-    <ion-label position="floating">Details</ion-label>
+    <ion-label position="floating">Cedula</ion-label>
     <ion-textarea [(ngModel)]="post.details" required></ion-textarea>
   </ion-item>
+
 
   <ion-button
     class="ion-padding"
     color="primary"
     expand="full"
     (click)="createPost(post)"
-    >Create</ion-button
+    >Crear Formulario</ion-button
   >
 </ion-content>

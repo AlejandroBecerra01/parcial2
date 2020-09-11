@@ -33,7 +33,7 @@ export class HomePage {
 
     // show loader
     let loader = await this.loadingCtrl.create({
-      message: "Please wait..."
+      message: "Espere Por Favor"
     });
     loader.present();
 
