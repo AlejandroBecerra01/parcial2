@@ -5,15 +5,56 @@
 </ion-header>
 
 <ion-content>
-  <ion-item>
-    <ion-label position="floating">Title</ion-label>
+  <ion-content>
+    <ion-item>
+    <ion-label position="floating">Nombre Completo</ion-label>
     <ion-input type="text" [(ngModel)]="post.title" required></ion-input>
-  </ion-item>
-
-  <ion-item>
-    <ion-label position="floating">Details</ion-label>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">Cedula</ion-label>
     <ion-textarea [(ngModel)]="post.details" required></ion-textarea>
-  </ion-item>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">¿Tienes sensación de falta de aire de inicio brusco <br>(en ausencia de cualquier otra patología que <br>justifique este síntoma)? </ion-label>
+    <ion-textarea [(ngModel)]="post.op1" required></ion-textarea>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">¿Tienes fiebre? </ion-label>
+    <ion-textarea [(ngModel)]="post.op2" required></ion-textarea>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">¿Tienes tos seca y persistente? </ion-label>
+    <ion-textarea [(ngModel)]="post.op3" required></ion-textarea>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">¿Has tenido contacto estrecho con algún paciente<br> positivo confirmado?</ion-label>
+    <ion-textarea [(ngModel)]="post.op4" required></ion-textarea>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">¿Tienes mucosidad en la nariz? </ion-label>
+    <ion-textarea [(ngModel)]="post.op5" required></ion-textarea>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">¿Tienes dolor muscular? </ion-label>
+    <ion-textarea [(ngModel)]="post.op6" required></ion-textarea>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">¿Tienes sintomatología gastrointestinal?</ion-label>
+    <ion-textarea [(ngModel)]="post.op7" required></ion-textarea>
+    </ion-item>
+    
+    <ion-item>
+    <ion-label position="floating">¿Llevas más de 20 días con estos síntomas?</ion-label>
+    <ion-textarea [(ngModel)]="post.op8" required></ion-textarea>
+    </ion-item>
 
   <ion-button
     class="ion-padding"
